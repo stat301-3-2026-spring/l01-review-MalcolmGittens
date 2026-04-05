@@ -89,8 +89,9 @@ Explain the difference between supervised and unsupervised learning.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-Unsupervised learning is a learning task without a outcome variable. It looks to detect the data automatically in their respective clusters, explanatory data analysis. While supervised learning tasks results in either a regression or classification, meaning that the results are predictive. 
+Unsupervised learning refers to a class of methods that do not rely on a predefined outcome variable. Instead, these techniques aim to uncover underlying structure in the data, such as identifying natural groupings or clusters, and are often used in exploratory data analysis.
 
+In contrast, supervised learning involves modeling a specified outcome variable. These tasks typically fall into either regression or classification, where the goal is to generate predictions based on labeled data.
 :::
 
 ### Question 3 
@@ -179,7 +180,7 @@ How does mechanistic and empirically driven model terminology relate to the idea
 ::: {.callout-tip icon="false"}
 ## Solution
 
-Mechanistic models are less flexible than empirically driven models because they empirically driven models do not follow a set of rules.
+Mechanistic models are less flexible than empirically driven models because empirically driven models do not follow a set of rules.
 
 :::
 
