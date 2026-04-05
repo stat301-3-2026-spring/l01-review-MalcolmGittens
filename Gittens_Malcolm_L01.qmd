@@ -39,36 +39,46 @@ Provide a brief outline/overview of the steps involved in a supervised machine l
 
 ::: {.callout-tip icon="false"}
 ## Solution
-1. Define the Problem
-* Regression or Classification 
+**1. Define the Problem**
 
-2. Collect the Data
-* Explore aspects like misingness and variable types
+Regression or Classification 
 
-3. Process the data
-* Feature engineer and handle and data issues found
-* Potentially create new features for data 
+**2. Collect the Data**
 
-4. Split the data 
-* Divide the data into training and testing sets
+Explore aspects like misingness and variable types
 
-5. Choose a model 
-* This could be KNN, RF, BT, Linear, Log, etc. 
+**3. Process the data**
 
-6. Train the selected model
-* Fit the model to the data
+Feature engineer and handle and data issues found
+Potentially create new features for data 
 
-7. Tune Hyper parameters 
-* Essentially optimize model settings: Cross-validation and Grid 
+**4. Split the data**
 
-8. Evaluate Model Performance 
-* Use test data and use a metric (R^2, Accuracy, etc.) to see if the model works well 
+Divide the data into training and testing sets
 
-9. Interpret the model
-* Check for Overfitting or Underfitting
+**5. Choose a model**
 
-10. Deploy Model 
-* Use model for desired process
+This could be KNN, RF, BT, Linear, Log, etc. 
+
+**6. Train the selected model**
+
+Fit the model to the data
+
+**7. Tune Hyper parameters**
+
+Essentially optimize model settings: Cross-validation and Grid 
+
+**8. Evaluate Model Performance**
+
+Use test data and use a metric (R^2, Accuracy, etc.) to see if the model works well 
+
+**9. Interpret the model**
+
+Check for Overfitting or Underfitting
+
+**10. Deploy Model**
+
+Use model for desired process
 
 :::
 
