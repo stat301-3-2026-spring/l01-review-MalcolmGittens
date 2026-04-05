@@ -1,8 +1,8 @@
 ---
 title: "L01 Review"
 subtitle: "Data Science 3 with R (STAT 301-3)"
-author: "YOUR NAME"
-pagetitle: "L01 YOUR NAME"
+author: "Malcolm Gittens"
+pagetitle: "L01 Malcolm Gittens"
 date: today
 
 format:
@@ -26,18 +26,12 @@ citation-location: margin
 ::: {.callout-tip icon="false"}
 ## Github Repo Link
 
-To link to your github **repo**sitory, appropriately edit the example link below. Meaning replace `https://your-github-repo-url` with your github repo url. Suggest verifying the link works before submitting.
-
-[https://your-github-repo-url](https://your-github-repo-url)
+[Malcolm's Github](https://github.com/stat301-3-2026-spring/l01-review-MalcolmGittens)
 :::
 
 ## Overview
 
 The goal of this lab is to review machine learning/predictive modeling vocabulary and concepts covered in Data Science 2 with R (STAT 301-2).
-
-## Questions
-
-When completing the following questions ensure your solutions are neatly formatted and clearly indicated. Consider including diagrams/images in some of your solutions, if it helps to make things easier to describe/discuss.
 
 ### Question 1
 
@@ -45,8 +39,36 @@ Provide a brief outline/overview of the steps involved in a supervised machine l
 
 ::: {.callout-tip icon="false"}
 ## Solution
+1. Define the Problem
+* Regression or Classification 
 
-YOUR SOLUTION HERE
+2. Collect the Data
+* Explore aspects like misingness and variable types
+
+3. Process the data
+* Feature engineer and handle and data issues found
+* Potentially create new features for data 
+
+4. Split the data 
+* Divide the data into training and testing sets
+
+5. Choose a model 
+* This could be KNN, RF, BT, Linear, Log, etc. 
+
+6. Train the selected model
+* Fit the model to the data
+
+7. Tune Hyper parameters 
+* Essentially optimize model settings: Cross-validation and Grid 
+
+8. Evaluate Model Performance 
+* Use test data and use a metric (R^2, Accuracy, etc.) to see if the model works well 
+
+9. Interpret the model
+* Check for Overfitting or Underfitting
+
+10. Deploy Model 
+* Use model for desired process
 
 :::
 
@@ -57,7 +79,7 @@ Explain the difference between supervised and unsupervised learning.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Unsupervised learning is a learning task without a outcome variable. It looks to detect the data automatically in their respective clusters, explanatory data analysis. While supervised learning tasks results in either a regression or classification, meaning that the results are predictive. 
 
 :::
 
@@ -70,7 +92,7 @@ In general, we can classify a model by its purpose into 1 of the 3 categories be
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Descriptive models describe or illustrate characteristics of some data and visualize some trend or artifact.
 
 :::
 
@@ -79,7 +101,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+These models produce a decision for a research question or test a hypothesis. The models prefomance depends greatly on the underlying assumptions. 
 
 :::
 
@@ -88,7 +110,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Predictive Models look to produce the most accurate predictions for a set of data. 
 
 :::
 
@@ -103,7 +125,7 @@ What does it mean to be a mechanistic model?
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+A mechanistic model assumes the outcome variable follows a equation. While the estimates are based on a set of parameters. 
 
 :::
 
@@ -114,7 +136,7 @@ What does it mean to be an empirically driven model?
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+There are no normative assumptions about the outcome variable but need more data, and takes much longer to train. 
 
 :::
 
@@ -125,7 +147,7 @@ How does the mechanistic and empirically driven model terminology relate to the 
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Parametric models are another name for mechanistic models, while nonparametric models are another name for empirically driven models. 
 
 :::
 
