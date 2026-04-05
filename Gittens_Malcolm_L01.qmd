@@ -125,7 +125,7 @@ What does it mean to be a mechanistic model?
 ::: {.callout-tip icon="false"}
 ## Solution
 
-A mechanistic model assumes the outcome variable follows a equation. While the estimates are based on a set of parameters. 
+A mechanistic model assumes the outcome variable follows a equation. Moreover, the estimates are based on a set of parameters. However, this resutlts in a model with much less complexity.
 
 :::
 
@@ -158,7 +158,7 @@ In general, is a mechanistic or empirically driven model easier to interpret? Ex
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+A mechanistic model is easier to determine because it is standardized to some normative equation. 
 
 :::
 
@@ -169,7 +169,7 @@ How does mechanistic and empirically driven model terminology relate to the idea
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Mechanistic models are less flexible than empirically driven models because they empirically driven models do not follow a set of rules.
 
 :::
 
@@ -180,7 +180,7 @@ Describe the bias-variance trade-off when considering the use of a mechanistic o
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Mechanistic models, which are grounded normative assumptions about relationships in the data, tend to have higher bias because they may oversimplify complex patterns, but they have lower variance, showing that predictions are stable across different samples. In contrast, empirically driven models rely on the data to uncover patterns, allowing them to achieve lower bias using nonlinearities, but this flexibility comes with higher variance, making them more sensitive to noise and prone to overfitting. 
 
 :::
 
@@ -191,7 +191,7 @@ Explain the difference between a regression and classification machine learning 
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+The  difference between regression and classification problems is the type of outcome being predicted. In a regression problem, the target variable is continuous, while, a classification problem involves predicting a categorical outcome.
 
 :::
 
@@ -202,7 +202,7 @@ When splitting the data, why is it useful to stratify by the outcome/target vari
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Stratifying by the target variable ensures that both the training and testing sets have similar outcome distributions. This helps prevent imbalances in the data, leading to more reliable model training and more accurate evaluation of performance.
 
 :::
 
@@ -213,7 +213,9 @@ Briefly describe how v-fold cross validation with repeats is used to estimate te
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+V-fold cross-validation splits data into v-folds, trains on these folds, and validates on the remaining fold, repeating this process so each fold is used once. This process is repeated multiple times, and RMSE is averaged across all runs.
+
+This is used to get a more reliable estimate of performance by reducing dependence on any single data split by creating more splits. 
 
 :::
 
@@ -224,7 +226,7 @@ When might we use a bootstrap resampling procedure instead of v-fold cross valid
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+We might use bootstrap resampling instead of v-fold cross-validation when the dataset is small. Bootstrapping repeatedly samples with replacement from the existing data, allowing us to estimate not just RMSE and its distribution. This makes it especially useful when data is limited.
 
 :::
 
@@ -235,7 +237,7 @@ Briefly describe model tuning and why we use it.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Model tuning is the process of selecting the best hyperparameters, or, settings not learned from the data, like tree depth or learning rate, by testing different combinations and evaluating performance. We use it to improve model performance and generalization, ensuring the model is neither overfitting nor underfitting.
 
 :::
 
@@ -246,7 +248,7 @@ What are two common performance metrics when dealing with a regression ML proble
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+The two common performance metrics are Root Mean Squared Error (RMSE) and R-squared (R²). 
 
 :::
 
@@ -255,8 +257,7 @@ What are two common performance metrics when dealing with a classification ML pr
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
-
+The two common performance metrics are Accuracy and Precision. 
 :::
 
 ### Question 11
@@ -270,7 +271,7 @@ A company with a subscription based service (for example Netflix, Disney+, New Y
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+This question is inferential because the goal is to understand the relationship between service calls and a  churn in the next month. This question is focused on interpreting a existing effect.
 
 :::
 
@@ -279,7 +280,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+This question is predictive because the goal is to predict weather a customer will churn in the next month. This question is estimating probability and forecasting an outcome. 
 
 :::
 
