@@ -1,0 +1,221 @@
+---
+title: "Self Evaluation L01 Review"
+subtitle: |
+  | Data Science 2 with R 
+  | STAT 301-2
+author: "Malcolm Gittens"
+pagetitle: "Self Evaluation PQ2 Malcolm Gittens"
+date: today
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 4
+    toc-location: left
+    embed-resources: true
+    code-fold: false
+    link-external-newwindow: true
+
+execute:
+  warning: false
+  error: true
+
+from: markdown+emoji
+reference-location: margin
+citation-location: margin 
+---
+
+::: {.callout-tip icon="false"}
+## Github Repo Link
+
+[Malcolm's Github](https://github.com/stat301-3-2026-spring/l01-review-MalcolmGittens)
+:::
+
+## Overview
+
+The goal of this lab is to review machine learning/predictive modeling vocabulary and concepts covered in Data Science 2 with R (STAT 301-2).
+
+### Question 1
+
+Provide a brief outline/overview of the steps involved in a supervised machine learning process. Could provide this as a bulleted list. 
+
+### Self Evaluation 
+::: {.callout-tip icon="false"}
+
+## Score
+
+4
+
+## Explanation
+I was able to get majority of the answers correct, however the order was not perfect and I failed to define specific aspects. 
+:::
+
+
+### Question 2
+
+Explain the difference between supervised and unsupervised learning.
+
+### Self Evaluation 
+::: {.callout-tip icon="false"}
+
+## Score 
+5
+
+## Explanation
+
+I was able to answer this question well and even added extra to the answer. 
+:::
+
+
+
+
+### Question 3 
+
+In general, we can classify a model by its purpose into 1 of the 3 categories below. Provide a brief description of the goals of these model classes.
+
+### Self Evaluation 
+
+#### Q3
+::: {.callout-tip icon="false"}
+## Score 
+5
+
+## Explanation
+My writing here was near perfect. 
+
+:::
+
+### Question 4 
+
+We can further describe/classify predictive models by how they were derived or developed as being either mechanistic or empirically driven. 
+
+
+### Self Evaluation 
+::: {.callout-tip icon="false"}
+## Score 
+4
+
+## Explanation
+I did really well on this question i think I am missing a few details, however. 
+:::
+
+
+### Question 5 
+
+Explain the difference between a regression and classification machine learning (ML) problems.
+
+### Self Evaluation 
+
+::: {.callout-tip icon="false"}
+## Score 
+5
+
+## Explanation
+My answer is very similar to the correct answer. 
+:::
+
+
+### Question 6 
+
+When splitting the data, why is it useful to stratify by the outcome/target variable? 
+
+### Self Evaluation 
+::: {.callout-tip icon="false"}
+## Score 
+
+5
+
+## Explanation
+
+Near perfect answer. 
+:::
+
+
+### Question 7 
+
+Briefly describe how v-fold cross validation with repeats is used to estimate test RMSE. Also provide an explanation of why we use it. 
+
+### Self Evaluation 
+::: {.callout-tip icon="false"}
+## Score 
+4
+
+## Explanation
+My description of the use for it could have been more detailed. 
+:::
+
+
+
+### Question 8
+
+When might we use a bootstrap resampling procedure instead of v-fold cross validation to estimate test RMSE?
+
+
+### Self Evaluation 
+::: {.callout-tip icon="false"}
+## Score 
+
+3
+## Explanation
+
+I missed the low variance part of this question but got the majority of the concept. 
+
+## Updated solution
+
+We might use bootstrap resampling instead of v-fold cross-validation when the dataset is small. Bootstrapping repeatedly samples with replacement from the existing data, allowing us to estimate not just RMSE and its distribution. This makes it especially useful when data is limited. Additionally, one could use Bootstrapping if the data has low variance. 
+:::
+
+
+### Question 9 
+
+Briefly describe model tuning and why we use it.
+
+### Self Evaluation
+::: {.callout-tip icon="false"}
+## Score 
+
+4
+
+## Explanation
+
+I did not provide any examples of hyperpareamters that could be used when model tuning. 
+:::
+
+
+### Question 10 
+
+What are two common performance metrics when dealing with a regression ML problem?
+
+::: {.callout-tip icon="false"}
+## Score 
+
+4
+
+## Explanation
+
+I got the metrics for a regression problem, I missed the roc_auc for the classification problem. 
+:::
+
+
+
+### Question 11
+
+Classify each question/problem below as either prediction or inferential. Explain your reasoning for each.
+
+A company with a subscription based service (for example Netflix, Disney+, New York Times, etc) has data concerning customer interactions with a them, including features like the number of customer service calls, quality of service calls, subscription length, engagement with the service, discounted service, etc. They are interested in two questions:
+
+1. Does a high number of service calls impact a customer's likelihood of churn in the next month (leave the company/drop the service)?
+
+### Self Evaluation
+::: {.callout-tip icon="false"}
+## Score 
+
+5
+
+## Explanation
+
+I got these two perfect. 
+:::
+
+
